@@ -30,6 +30,5 @@ test = [6, 4, 5, 3, 2]
 print bubble_sort(test)
 puts
 
-print (bubble_sort_by(%w[hi hello hey]) { |left, right|  left.length - right.length })
+print bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }
 puts
-
