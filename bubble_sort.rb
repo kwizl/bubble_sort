@@ -5,11 +5,10 @@ def bubble_sort(arr)
 
   arr.each do
     (size - 1).times do |i|
-      if arr[i] > arr[i + 1]
-        arr[i], arr[i + 1] = arr[i + 1], arr[i]
-      end
+      arr[i], arr[i + 1] = arr[i + 1], arr[i] if arr[i] > arr[i + 1]
     end
   end
+
   print arr.to_a
   puts
 end
@@ -21,9 +20,7 @@ def bubble_sort_by(arr)
 
   arr.each do
     (size - 1).times do |i|
-      if yield(arr[i], arr[i + 1]).positive?
-        arr[i], arr[i + 1] = arr[i + 1], arr[i]
-      end
+      arr[i], arr[i + 1] = arr[i + 1], arr[i] if yield(arr[i], arr[i + 1]).positive?
     end
   end
 
