@@ -9,8 +9,7 @@ def bubble_sort(arr)
     end
   end
 
-  print arr.to_a
-  puts
+  arr.to_a
 end
 
 def bubble_sort_by(arr)
@@ -24,13 +23,13 @@ def bubble_sort_by(arr)
     end
   end
 
-  print arr.to_a
-  puts
+  arr.to_a
 end
 
 test = [6, 4, 5, 3, 2]
-bubble_sort(test)
+print bubble_sort(test)
+puts
 
-bubble_sort_by(%w[hi hello hey]) do |left, right|
-  left.length - right.length
-end
+print (bubble_sort_by(%w[hi hello hey]) { |left, right|  left.length - right.length })
+puts
+
