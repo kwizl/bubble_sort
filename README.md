@@ -7,6 +7,12 @@ In this project, we wrote two bubble sort algorithms. The first method sort an a
 
 - Ruby
 
+## Installation and Testing Guidelines
+  To get a local copy of this project, clone [this repo](https://github.com/codecell/bubble_sort)
+  - **cd bubble_sort**
+  - In your Terminal, Run **ruby bubble_sort.rb**
+  - you can change the values in the arrays to your custom values and test again
+
 ## Authors
 
 👤 **Martin Njoroge**
