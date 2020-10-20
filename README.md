@@ -2,7 +2,6 @@
 
 In this project, we wrote two bubble sort algorithms. The first method sort an array of integers in ascending order. The second method sorts an array of strings in ascending order based on the length of the characters in each array item.
 
-
 ## Built With
 
 - Ruby
@@ -27,7 +26,3 @@ In this project, we wrote two bubble sort algorithms. The first method sort an a
 - Twitter: [@the_codecell](https://twitter.com/the_codecell) 
 - Linkedin: [ezaka alfred](https://www.linkedin.com/in/alfrednoble/)
 
-
-## Show your support
-
-Give a ⭐️ if you like this project!
